@@ -5,7 +5,6 @@ Repository to sync my dotfiles
 
 - `.vimrc`: using [vim-plug](https://github.com/junegunn/vim-plug) to manage plugins
 - `.zshrc`: using [oh-my-zsh](https://ohmyz.sh/) to manage plugins
-- `.bashrc`
 
 ## Link
 
