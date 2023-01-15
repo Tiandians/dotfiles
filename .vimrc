@@ -6,6 +6,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'wakatime/vim-wakatime'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'arcticicestudio/nord-vim'
+Plug 'ycm-core/YouCompleteMe'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 let g:airline#extensions#tabline#enabled = 1
@@ -14,6 +17,7 @@ let g:airline#extensions#tabline#enabled = 1
 set background=dark
 colorscheme onedark
 let g:airline_theme='onedark'
-
+let g:airline_powerline_fonts=1
 set number
 set relativenumber
+imap jj <Esc>
