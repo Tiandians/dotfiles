@@ -6,9 +6,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'wakatime/vim-wakatime'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'editorconfig/editorconfig-vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 let g:airline#extensions#tabline#enabled = 1
