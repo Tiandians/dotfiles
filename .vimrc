@@ -15,9 +15,11 @@ call plug#end()
 let g:airline#extensions#tabline#enabled = 1
 
 " Theme
-set background=dark
-colorscheme onedark
-let g:airline_theme='onedark'
+" For light theme, please use 'nord' with 'light', and AirlineTheme 'light'
+" For dark theme, please use 'onedark', and AirlineTheme 'onedark'
+set background=light
+colorscheme nord
+let g:airline_theme='light'
 let g:airline_powerline_fonts=1
 set number
 set relativenumber
